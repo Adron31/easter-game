@@ -1,7 +1,7 @@
 const data = {
     team1: {
         isActive: true,
-        currentStep: 10,
+        currentStep: 0,
         name: 'Chirpy Birdies',
         questions: [
             {
@@ -98,7 +98,7 @@ const data = {
     },
     team2: {
         isActive: false,
-        currentStep: 10,
+        currentStep: 0,
         name: 'Fluffy Bunnies',
         questions: [
             {
