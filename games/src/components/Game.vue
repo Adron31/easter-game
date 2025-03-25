@@ -181,14 +181,15 @@ export default {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 5;
     height: 232px;
 
     &__start {
         position: absolute;
-        bottom: -55px;
+        bottom: -45px;
         left: 8%;
         height: auto;
-        width: 470px;
+        width: 400px;
 
         img {
             display: block;
@@ -222,7 +223,7 @@ export default {
         }
 
         &_2 {
-            transform: translateX(-50%);
+            transform: translateX(-60%);
 
             &.animation {
                 animation: jumpUp2 1s cubic-bezier(0.25, 1, 0.5, 1);
@@ -262,7 +263,7 @@ export default {
 
 .boards {
     position: relative;
-    z-index: 20;
+    z-index: 1;
     padding-left: 200px;
     display: flex;
     align-items: center;
