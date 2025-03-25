@@ -1,6 +1,6 @@
 <template>
     <main>
-        <Game/>
+        <Game v-cloak/>
     </main>
 </template>
 
